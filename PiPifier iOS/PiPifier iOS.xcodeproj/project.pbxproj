@@ -32,34 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		115E96C124A6C46E006CE112 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11F4657524A6C407001CBE4F /* PiPifier macOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 11F1B4FE1D4EC0CD0041579B;
-			remoteInfo = PiPifier;
-		};
-		115E96C324A6C46E006CE112 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 11F4657524A6C407001CBE4F /* PiPifier macOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 11F1B5141D4EC1010041579B;
-			remoteInfo = "PiPifier Button";
-		};
-		115E96C724A6C46E006CE112 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 115E96BC24A6C46E006CE112 /* PiPifier macOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 11F1B4FE1D4EC0CD0041579B;
-			remoteInfo = PiPifier;
-		};
-		115E96C924A6C46E006CE112 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 115E96BC24A6C46E006CE112 /* PiPifier macOS.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 11F1B5141D4EC1010041579B;
-			remoteInfo = "PiPifier Button";
-		};
 		11FA077D26C72A25006235D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1177FEE81EC254370061D175 /* Project object */;
@@ -84,7 +56,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		115E96BC24A6C46E006CE112 /* PiPifier macOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "PiPifier macOS.xcodeproj"; path = "../macOS/PiPifier macOS.xcodeproj"; sourceTree = "<group>"; };
 		1177FEF01EC254370061D175 /* PiPifier iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PiPifier iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1177FEF31EC254370061D175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1177FEF51EC254370061D175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +70,6 @@
 		11C9CB8724A5038E00ECA5CD /* MainHostingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainHostingVC.swift; sourceTree = "<group>"; };
 		11C9CB8924A565DB00ECA5CD /* MainUICoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUICoordinator.swift; sourceTree = "<group>"; };
 		11F4652824A6B510001CBE4F /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
-		11F4657524A6C407001CBE4F /* PiPifier macOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "PiPifier macOS.xcodeproj"; path = "../macOS/PiPifier macOS.xcodeproj"; sourceTree = "<group>"; };
 		11FA076726C72A25006235D4 /* PiPifier-WebExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PiPifier-WebExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11FA076926C72A25006235D4 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		11FA076C26C72A25006235D4 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
@@ -133,15 +103,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		115E96BD24A6C46E006CE112 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				115E96C824A6C46E006CE112 /* PiPifier.app */,
-				115E96CA24A6C46E006CE112 /* PiPifier Button.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1177FEE71EC254370061D175 = {
 			isa = PBXGroup;
 			children = (
@@ -182,8 +143,6 @@
 		11B525F21ECF2C1B0064BA96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				11F4657524A6C407001CBE4F /* PiPifier macOS.xcodeproj */,
-				115E96BC24A6C46E006CE112 /* PiPifier macOS.xcodeproj */,
 				118AE3EC1ED82BB00062E11E /* StoreKit.framework */,
 				11B525F31ECF2C1B0064BA96 /* MessageUI.framework */,
 			);
@@ -196,15 +155,6 @@
 				11F4652824A6B510001CBE4F /* MailView.swift */,
 			);
 			path = "SwiftUI Representables";
-			sourceTree = "<group>";
-		};
-		11F4657624A6C407001CBE4F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				115E96C224A6C46E006CE112 /* PiPifier.app */,
-				115E96C424A6C46E006CE112 /* PiPifier Button.appex */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		11FA076826C72A25006235D4 /* PiPifier-WebExtension */ = {
@@ -283,7 +233,7 @@
 				TargetAttributes = {
 					1177FEEF1EC254370061D175 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = AW9CBV6SY7;
+						DevelopmentTeam = 6A9NKHF388;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
@@ -293,7 +243,7 @@
 					};
 					11FA076626C72A25006235D4 = {
 						CreatedOnToolsVersion = 13.0;
-						DevelopmentTeam = AW9CBV6SY7;
+						DevelopmentTeam = 6A9NKHF388;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -309,16 +259,6 @@
 			mainGroup = 1177FEE71EC254370061D175;
 			productRefGroup = 1177FEF11EC254370061D175 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 11F4657624A6C407001CBE4F /* Products */;
-					ProjectRef = 11F4657524A6C407001CBE4F /* PiPifier macOS.xcodeproj */;
-				},
-				{
-					ProductGroup = 115E96BD24A6C46E006CE112 /* Products */;
-					ProjectRef = 115E96BC24A6C46E006CE112 /* PiPifier macOS.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1177FEEF1EC254370061D175 /* PiPifier iOS */,
@@ -326,37 +266,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		115E96C224A6C46E006CE112 /* PiPifier.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = PiPifier.app;
-			remoteRef = 115E96C124A6C46E006CE112 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		115E96C424A6C46E006CE112 /* PiPifier Button.appex */ = {
-			isa = PBXReferenceProxy;
-			fileType = "wrapper.app-extension";
-			path = "PiPifier Button.appex";
-			remoteRef = 115E96C324A6C46E006CE112 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		115E96C824A6C46E006CE112 /* PiPifier.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = PiPifier.app;
-			remoteRef = 115E96C724A6C46E006CE112 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		115E96CA24A6C46E006CE112 /* PiPifier Button.appex */ = {
-			isa = PBXReferenceProxy;
-			fileType = "wrapper.app-extension";
-			path = "PiPifier Button.appex";
-			remoteRef = 115E96C924A6C46E006CE112 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1177FEEE1EC254370061D175 /* Resources */ = {
@@ -561,13 +470,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = AW9CBV6SY7;
+				CURRENT_PROJECT_VERSION = 1.0.01;
+				DEVELOPMENT_TEAM = 6A9NKHF388;
 				INFOPLIST_FILE = "PiPifier iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.APPenzeller.PiPifier-iOS";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.r8b.de.APPenzeller.PiPifier-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -582,13 +491,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = AW9CBV6SY7;
+				CURRENT_PROJECT_VERSION = 1.0.01;
+				DEVELOPMENT_TEAM = 6A9NKHF388;
 				INFOPLIST_FILE = "PiPifier iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "de.APPenzeller.PiPifier-iOS";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.r8b.de.APPenzeller.PiPifier-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -604,23 +513,23 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = AW9CBV6SY7;
+				CURRENT_PROJECT_VERSION = 1.0.01;
+				DEVELOPMENT_TEAM = 6A9NKHF388;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PiPifier-WebExtension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = PiPifier;
+				INFOPLIST_KEY_CFBundleDisplayName = "VTeacher PiP";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 APPenzeller. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.APPenzeller.PiPifier-iOS.PiPifier-WebExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.r8b.de.APPenzeller.PiPifier-iOS.PiPifier-WebExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -637,22 +546,22 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = AW9CBV6SY7;
+				CURRENT_PROJECT_VERSION = 1.0.01;
+				DEVELOPMENT_TEAM = 6A9NKHF388;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PiPifier-WebExtension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = PiPifier;
+				INFOPLIST_KEY_CFBundleDisplayName = "VTeacher PiP";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2021 APPenzeller. All rights reserved.";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.0.0;
 				MTL_FAST_MATH = YES;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.APPenzeller.PiPifier-iOS.PiPifier-WebExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.r8b.de.APPenzeller.PiPifier-iOS.PiPifier-WebExtension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
